@@ -6,6 +6,7 @@
     <title>SEJAB2B</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/contact.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -123,6 +124,61 @@
     </div>
 
     
+    <div class="serviços-page">
+      
+      <div class="form-bg">
+        <div class="form-img">
+          <div class="form-img-adress">
+            <i class="fab fa-whatsapp fa-10x"></i>
+            <button class="form-btn"><a href="https://api.whatsapp.com/send?phone=556798162098&text=Ol%C3%A1%20fui%20redirecionado%20pelo%20site%2C%20vamos%20negociar%3F">Contate pelo Whatsapp</a></button>
+            <p class="texto-end">Endereço: Rua Vinte e Cinco de <br>Dezembro, 2266, Campo Grande – MS
+
+             <br><br> Email: contato@sejab2b.com</p>
+          </div>
+        </div>
+
+        <form method="post" action="https://formspree.io/f/xyybqllr " name="formcontact">
+          <h1 class="h1-form">Formulário de contato</h1>
+          <div class="field">
+            <p>Digite seu nome:</p>
+            <input type="text" name="nome" placeholder="Nome">
+          </div>
+
+          <div class="field">
+            <p>Digite seu e-mail:</p>
+          <input type="e-mail" name="email" placeholder="E-mail" >
+         </div>
+
+
+          <div class="field">
+            <p>Digite seu telefone:</p>
+            <input type="number" name="usertel" placeholder="Telefone">
+          </div>
+
+          <div class="field">
+            <p>Quantos funcionários tem sua empresa?</p>
+            <input type="text" name="usertel" placeholder="Ex: 5-10">
+          </div>
+          
+          <div class="field">
+            <p>Digite o nome da sua empresa:</p>
+            <input type="text" name="nomeEmpresa" placeholder="Nome da empresa">
+          </div>     
+          <div class="field">
+            <p>Fale sua dúvida:</p>
+            <textarea name="mensagem" id="mensagem" placeholder="Alguma dúvida?" required></textarea> 
+          </div>  
+
+          <div class="field">
+            <input type="submit" name="enviar" value="Enviar" onclick="return validarFormContato()"> 
+          </div>
+      </form>
+     
+        
+      
+
+          
+    </div>
 
 
     <!-- Footer Section -->
@@ -180,7 +236,8 @@
     </div>
     <script src="/js/scripts.js"></script>
     <script src="/js/app.js"></script>
-    <script src="/js/crs-text.js"></script>
+    
+    <script src="/js/authentication.js"></script>
     
   </body>
 </html>
