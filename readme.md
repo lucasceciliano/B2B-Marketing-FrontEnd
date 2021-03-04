@@ -8,7 +8,7 @@
 
 - HTML5
 - CSS3
-- JavaScrip
+- JavaScript
 
 # Preview
 
