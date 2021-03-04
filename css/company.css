@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  background-color: #141414;
+  color: #fff;
+  
+}
+
+
+.back-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-weight: 600;
+    
+}
+
+.back-home strong {
+    font-size: 4rem;
+    
+    
+}
+
+.back-home strong a {
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.carousel {
+  height: 700px;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+  
+}
+
+.carousel .carousel-item {
+ width: 400px;
+}
+
+@media screen and (max-width: 540px) {
+    .back-home strong {
+        font-size: 3rem;
+        margin-top: 2rem;
+        
+        
+    }
+}
